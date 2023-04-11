@@ -1,0 +1,9 @@
+replicaCount: 1
+containerName: resume-nginx-container
+containerPort: 80
+serviceType: NodePort
+servicePort: 30001 # 30000-32767 
+nodePort: 30001 # 30000-32767 
+image:
+  repository: kennedydocker/resume-nginx
+  tag: latest

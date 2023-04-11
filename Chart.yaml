@@ -1,0 +1,3 @@
+apiVersion: v2
+name: resume-nginx-helm 
+version: 0.1.0
