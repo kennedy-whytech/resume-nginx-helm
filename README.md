@@ -1,4 +1,4 @@
-# A simple website to host my resume and deployed via K8S Helm.
+# A simple website to host my resume and deployed via K8S Helm. Host yours in no time to land your dream job by smiply replacing the docker image!
 
 ```
 helm install resume-nginx-1 . --set servicePort=30001 --set nodePort=30001
