@@ -1,6 +1,14 @@
 # A simple website to host my resume and deployed via K8S Helm. 
 Host yours in no time to land your dream job by simply replacing it with your docker image!
 
+## Prerequisite will be docker and a k8s cluster e.g eks, on-prem cluster or just minikube e.g:
+```
+minikube start
+```
+
+Minkube Instllation:
+https://minikube.sigs.k8s.io/docs/start/
+
 ```
 helm install resume-nginx-1 . --set servicePort=30001 --set nodePort=30001
 helm install resume-nginx-2 . --set servicePort=30002 --set nodePort=30002
