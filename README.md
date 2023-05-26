@@ -39,3 +39,7 @@ $ minikube service resume-nginx-1-service --url
 
 ## Feel free to replace the docker image with yours here:
 https://github.com/kennedy-whytech/resume-nginx-helm/blob/be93e03a11a4e33b40e7b2708be5ab03aa01c33c/values.yaml#LL8C41-L9C1
+
+
+## To build your own resume docker image, take reference from:
+https://github.com/kennedy-whytech/resume-web
